@@ -8,24 +8,12 @@
 <body>
     <h1>Ejercicio 1</h1>
     <p>Crear una función que reciba un arreglo de números y devuelva el número más grande.</p>
-    <script>
-        function encontrarMayor(arr) {
-            if (arr.length === 0) {
-                return null; // Retorna null si el arreglo está vacío
-            }
-            let mayor = arr[0]; // Asume que el primer elemento es el mayor
-            for (let i = 1; i < arr.length; i++) {
-                if (arr[i] > mayor) {
-                    mayor = arr[i]; // Actualiza el mayor si encuentra un número más grande
-                }
-            }
-            return mayor;
-        }
 
-        // Ejemplo de uso
-        const numeros = [3, 7, 2, 9, 5];
-        console.log(encontrarMayor(numeros)); // Debería imprimir 9
-    </script>
-    
+    <h2>Solución:</h2>
+    <p>La solución consiste en recorrer el arreglo y mantener un registro del número más grande encontrado hasta el momento.</p>
+
+    <section>
+        <h3>Implementación en JavaScript:</h3>
+    </section>
 </body>
 </html>
